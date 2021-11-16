@@ -1,0 +1,26 @@
+## ----------------------------------------
+##  Brewfile
+## ----------------------------------------
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/cask"
+
+cask_args appdir: "/Applications"
+
+## ========== Base ==========
+brew "mas"
+brew "git"
+brew "anyenv"
+
+## ========== Applications ==========
+cask "google-chrome"
+cask "visual-studio-code"
+cask "slack"
+cask "chatwork"
+cask "iterm2"
+cask "alfred"
+cask "notion"
+cask "zoom"
+
+## ========== From App Store ==========
+mas "LINE", id: 539883307
