@@ -12,6 +12,7 @@ brew "mas"
 
 ## ========== Applications ==========
 cask "spectacle"
+cask "keyboardcleantool"
 cask "clipy"
 cask "hyperswitch"
 cask "google-japanese-ime"
